@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    /*box-sizing: border-box;*/
+}
+
+div {
+    margin: 100px 0 0 200px;
+    width: 576px;
+}
+
+table {
+    text-align: center;
+    border-collapse: collapse;
+}
+
+th, td {
+    width: 70px;
+    height: 40px;
+}
+
+td {
+    border: 2px solid grey;
+}
+
+tr td:nth-child(1) {
+    color: red;
+}
+
+tr td:nth-child(7) {
+    color: blue;
+}
+
+.sub-th td {
+    border: 0 !important;
+}
+
+h2 {
+    text-align: center;
+    color: blue;
+    margin-bottom: 20px;
+}
+
+th:nth-child(1) {
+    background-color: red;
+}
+
+th:nth-child(n+2) {
+    background-color: darkorange;
+}
+
+th:nth-child(7) {
+    background-color: blue;
+}
+
+th {
+    border: 2px solid white;
+    padding: 0 5px;
+    color: white;
+}
+
+sub {
+    color: black;
+}
+
